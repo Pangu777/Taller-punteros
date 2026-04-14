@@ -3,8 +3,6 @@
 #include <vector>
 using namespace std;
 
-// Aplica varias transformaciones a un valor
-
 double aplicarTransformaciones(double x,
     const vector<function<double(double)>>& funcs) {
 
